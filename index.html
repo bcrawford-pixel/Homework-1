@@ -6,25 +6,27 @@
     <title>Homework 1</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>My Hobbies</h1>
-        <p>Welcome to my webpage! Here are a few things I enjoy.</p>
+<body class="page-shell">
+    <header class="site-header">
+        <div class="header-inner">
+            <h1>My Hobbies</h1>
+            <p>Welcome to my webpage! Here are a few things I enjoy.</p>
+        </div>
     </header>
 
-    <nav>
+    <nav class="main-nav" aria-label="Main navigation">
         <a href="#about">About Me</a>
         <a href="#hobbies">My Hobbies</a>
         <a href="#favorite">My Favorite Hobbies</a>
     </nav>
 
-    <main>
-        <section id="about">
+    <main class="page-main">
+        <section id="about" class="content-card intro-card">
             <h2>About Me</h2>
             <p>I am a passionate individual who enjoys exploring new interests and activities.</p>
         </section>
 
-        <section id="hobbies">
+        <section id="hobbies" class="content-card">
             <h2>My Hobbies</h2>
             <p>Here are some of the activities I enjoy doing in my free time:</p>
             <ul>
@@ -34,11 +36,11 @@
             </ul>
         </section>
 
-        <section id="favorite">
+        <section id="favorite" class="content-card favorite-card">
             <h2>My Favorite Hobby: Playing Video Games</h2>
 
             <h3>Why I Love Playing Video Games</h3>
-            <p>Playing video games allows me to immerse myself in different worlds, challenge my problem-solving skills, and connect with friends online. It's a great way to relax and have fun after a long day.</p>
+            <p>Playing video games allows me to immerse myself in different worlds, challenge my problem-solving skills, and connect with friends online. It's a great way to relax and have fun after a busy day.</p>
 
             <h3>My Favorite Video Games</h3>
             <ol>
@@ -48,15 +50,14 @@
             </ol>
         </section>
 
-        <figure>
+        <figure class="photo-card">
             <img src="images.jpg" alt="This is an image of someone playing video games">
             <figcaption>Playing video games by myself</figcaption>
         </figure>
-
-        <footer>
-            <p>Thanks for visiting my webpage!</p>
-        </footer>
     </main>
-</body>
 
+    <footer class="site-footer">
+        <p>Thanks for visiting my webpage!</p>
+    </footer>
+</body>
 </html>
