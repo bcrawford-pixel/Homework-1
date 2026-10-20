@@ -9,8 +9,8 @@
 body {
   margin: 1;
   font-family: Arial, sans-serif;
-  background: teal;
-  color: navy;
+  background: gold;
+  color: cream;
 }
 
 p {
@@ -19,16 +19,16 @@ p {
 }
 
 .site-header {
-  background: gold;
+  background: coral;
   color: cream;
   padding: 30px 40px;
-  border-bottom: 6px solid gold;
+  border-bottom: 6px gold;
   margin-bottom: 25px;
 }
 
 #main-title {
   margin: 0 0 10px;
-  color: coral;
+  color: navy;
   font-size: 2.5rem;
 }
 
@@ -50,7 +50,7 @@ p {
 }
 
 .note-card {
-  background: navy;
+  background: teal;
   border: 4px coral;
   border-radius: 12px;
   padding: 20px;
@@ -60,11 +60,11 @@ p {
 }
 
 .site-footer {
-  background: navy;
+  background: coral;
   color: cream;
   padding: 20px;
   margin-top: 30px;
-  border-top: 4px coral;
+  border-top: 4px navy;
   text-align: center;
 }
 
