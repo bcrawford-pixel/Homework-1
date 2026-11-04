@@ -3,64 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 2</title>
+    <title>My Hobbies</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <header class="site-header">
       <h1>My Hobbies</h1>
-      <nav class="nav-links" aria-label="Main navigation">
+      <nav class="main-nav" aria-label="Main navigation">
         <a href="#about">About Me</a>
         <a href="#hobbies">My Hobbies</a>
         <a href="#favorite">My Favorite Hobby</a>
       </nav>
     </header>
 
-    <main class="main-container">
+    <main id="main-content" class="page-main">
       <section class="introduction">
         <h2>Welcome to my webpage!</h2>
         <p>Here are a few things I enjoy doing in my free time.</p>
       </section>
 
-      <div class="card-grid">
-        <article id="about" class="card">
-          <h2>About Me</h2>
-          <p>
-            I am a passionate individual who enjoys exploring new interests and
-            activities. I love learning, trying new experiences, and taking time
-            to enjoy the things that make life fun and meaningful.
-          </p>
-        </article>
+      <article id="about" class="content-card">
+        <h2>About Me</h2>
+        <p>
+          I am a passionate individual who enjoys exploring new interests and
+          activities. I love learning, trying new experiences, and taking time
+          to enjoy the things that make life fun and meaningful.
+        </p>
+      </article>
 
-        <article id="hobbies" class="card">
-          <h2>My Hobbies</h2>
-          <ul>
-            <li>Playing Video Games</li>
-            <li>Building Lego Sets</li>
-            <li>Cooking</li>
-          </ul>
-        </article>
+      <article id="hobbies" class="content-card">
+        <h2>My Hobbies</h2>
+        <ul>
+          <li>Playing Video Games</li>
+          <li>Building Lego Sets</li>
+          <li>Cooking</li>
+        </ul>
+      </article>
 
-        <article id="favorite" class="card">
-          <h2>My Favorite Hobby</h2>
-          <h3>Playing Video Games</h3>
-          <p>
-            Playing video games allows me to immerse myself in different worlds,
-            challenge my problem-solving skills, and connect with friends online.
-            It is a great way to relax and have fun after a long day.
-          </p>
-          <h3>My Favorite Video Games</h3>
-          <ol>
-            <li>God of War</li>
-            <li>Marvel's Wolverine</li>
-            <li>Marvel's Spider-Man</li>
-          </ol>
-          <figure class="photo-card">
-            <img src="images.jpg" alt="This is an image of someone playing video games" />
-            <figcaption>Playing video games by myself</figcaption>
-          </figure>
-        </article>
-      </div>
+      <article id="favorite" class="content-card">
+        <h2>My Favorite Hobby</h2>
+        <h3>Playing Video Games</h3>
+        <p>
+          Playing video games allows me to immerse myself in different worlds,
+          challenge my problem-solving skills, and connect with friends online.
+          It is a great way to relax and have fun after a long day.
+        </p>
+        <h3>My Favorite Video Games</h3>
+        <ol>
+          <li>God of War</li>
+          <li>Marvel's Wolverine</li>
+          <li>Marvel's Spider-Man</li>
+        </ol>
+        <figure class="photo-card">
+          <img src="images.jpg" alt="A person playing video games" />
+          <figcaption>Playing video games by myself</figcaption>
+        </figure>
+      </article>
     </main>
 
     <footer class="site-footer">
