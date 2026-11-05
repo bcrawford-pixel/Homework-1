@@ -2,7 +2,7 @@
 
 ## Scope and verification status
 
-I reviewed the source for accessibility barriers and corrected the issues below. I could not submit the live page to WAVE from this environment, so these are source-audit findings, **not claims about a WAVE-generated report**. After GitHub Pages publishes the changes, run the page URL through [WAVE](https://wave.webaim.org/) to confirm its live report. The repository has GitHub Pages enabled, but the live URL was not confirmed here.
+I reviewed the source for accessibility barriers and corrected the issues below. I could not submit the live page to WAVE from this environment, so these are source-audit findings.
 
 ## Three issues addressed
 
