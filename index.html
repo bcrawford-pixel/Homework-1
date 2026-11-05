@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Before this: -->
+    <!-- Missing skip-link: -->
+    <!-- After change: -->
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <header class="site-header">
       <h1>My Hobbies</h1>
@@ -56,8 +59,17 @@
           <li>Marvel's Spider-Man</li>
         </ol>
         <figure class="photo-card">
+          <!-- Change this: -->
           <img src="character-playing-videogames.jpg" center alt="A person playing video games" />
+
+          <!-- To this: -->
+          <img src="character-playing-videogames.jpg" alt="A person playing video games" />
+          
+          <!-- Change this: -->
           <figcaption>Playing video games by myself</figcaption>
+
+          <!-- To this: -->
+          <figcaption>A person playing video games</figcaption>
         </figure>
       </article>
     </main>
