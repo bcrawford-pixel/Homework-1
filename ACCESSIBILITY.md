@@ -8,7 +8,7 @@
 * **User Impact:** Using old or unsupported attributes like `center` breaks standard HTML validation. Browsers and screen readers might get confused or fail to process the element correctly, creating extra barriers for visually impaired users trying to navigate the page.
 * **Fix Applied:** Removed the outdated `center` attribute from the `<img>` tag in `index.html` so it follows clean HTML5 standards:
   ```html
-  <img src="character-playing-videogames.jpg" alt="Gamer sitting comfortably on a couch holding a controller while focused on a video game" />
+  <img src="character-playing-videogames.jpg" alt="Gamer sitting comfortably holding a controller while focused on a video game" />
   2. Redundant Alt Text & Caption
 WAVE Report: Alternative text redundant with figure caption.
 
@@ -16,7 +16,7 @@ Element Affected: <img src="character-playing-videogames.jpg" alt="A person play
 
 User Impact: Having almost identical text in both the alt tag and the <figcaption> forces screen reader users to listen to the same exact sentence twice back-to-back. This creates annoying repetition and slows down how quickly users can consume the content.
 
-Fix Applied: Changed the alt text to focus on key visual details while letting the caption provide the context: <img src="character-playing-videogames.jpg" alt="Gamer sitting comfortably on a couch holding a controller while focused on a video game" />
+Fix Applied: Changed the alt text to focus on key visual details while letting the caption provide the context: <img src="character-playing-videogames.jpg" alt="Gamer sitting comfortably holding a controller while focused on a video game" />
 <figcaption>Playing video games by myself</figcaption>
 
 
